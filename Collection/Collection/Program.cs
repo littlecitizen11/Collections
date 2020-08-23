@@ -1,44 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.NetworkInformation;
 
 namespace Collection
 {
     class Program
     {
-        public static void ListOperations(List<string> mylist)
+        public static void ListOperations(List<string> myList)
         {
-            if (mylist.Count < 0)
+            if (myList.Count < 0)
             {
                 return;
             }
-            mylist.RemoveAt(mylist.Count / 2);
-            if (!String.IsNullOrEmpty((mylist.Find(x => x.Contains("mamas")))))
+            myList.RemoveAt(myList.Count / 2);
+            if (!String.IsNullOrEmpty((myList.Find(x => x.Contains("mamas")))))
             {
-                mylist.Add("6");
+                myList.Add("6");
             }
-            foreach (var item in mylist) //check for 1st
+            foreach (var itemInList in myList) //check for 1st
             {
-                Console.WriteLine(item);
+                Console.WriteLine(itemInList);
             }
-            int aramindex = mylist.FindIndex(x => x.Contains("aram"));
-            if (aramindex>-1&&aramindex%2!=0)
+            int aramIndex = myList.FindIndex(x => x.Contains("aram"));
+            if (aramIndex > -1&& aramIndex % 2!=0)
             {
-                mylist.Reverse();
+                myList.Reverse();
             }
-            foreach (var item in mylist) //check for 2nd
+            foreach (var itemInList in myList) //check for 2nd
             {
-                Console.WriteLine(item);
+                Console.WriteLine(itemInList);
             }
-            if (mylist.Distinct().Count()>=3)
+            if (myList.Distinct().Count()>=3)
             {
                 List<string> str = new List<string>{ "2", "3", "4" };
-                mylist.InsertRange(1, str);
+                myList.InsertRange(1, str);
             }
-            foreach (var item in mylist) //check for 3rd
+            foreach (var itemInList in myList) //check for 3rd
             {
-                Console.WriteLine(item);
+                Console.WriteLine(itemInList);
             }
 
         }
@@ -49,27 +48,27 @@ namespace Collection
                 return;
             if (dict.Keys.Contains("Scuba"))
             {
-                int numtocheck;
-                if(dict.TryGetValue("Scuba", out numtocheck))
-                    if (numtocheck == 6) 
+                int numToCheck;
+                if(dict.TryGetValue("Scuba", out numToCheck))
+                    if (numToCheck == 6) 
                     dict.Add("Empire", 6); 
             }
         }
-        public static void StackOperations(Stack<DateTime> datetimestack)
+        public static void StackOperations(Stack<DateTime> dateTimeStack)
         {
-            if (datetimestack == null)
+            if (dateTimeStack == null)
                 return;
-            if(datetimestack.Peek()<DateTime.Now)
+            if(dateTimeStack.Peek()<DateTime.Now)
             {
-                datetimestack.Pop();
-                datetimestack.Push(DateTime.Now);
+                dateTimeStack.Pop();
+                dateTimeStack.Push(DateTime.Now);
             }
         }
         static void Main(string[] args)
         {
-            List<string> a = new List<string> { "guy", "guy", "daniel", "ben" };
-            Dictionary<string, int> d = new Dictionary<string, int> { { "Scuba",6 } };
-            DictionaryOperations(d);
+            List<string> checkList = new List<string> { "guy", "guy", "daniel", "ben" };
+            Dictionary<string, int> checkDict = new Dictionary<string, int> { { "Scuba",6 } };
+            DictionaryOperations(checkDict);
         }
     }
 }

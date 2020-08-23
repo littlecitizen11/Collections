@@ -11,3 +11,16 @@ C:\Users\thelittlecitizen11\source\repos\Collection\Collection\obj\Debug\netcore
 C:\Users\thelittlecitizen11\source\repos\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.dll
 C:\Users\thelittlecitizen11\source\repos\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.pdb
 C:\Users\thelittlecitizen11\source\repos\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.genruntimeconfig.cache
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.exe
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.deps.json
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.runtimeconfig.json
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.runtimeconfig.dev.json
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.dll
+C:\Code\Collections\Collection\Collection\bin\Debug\netcoreapp3.1\Collection.pdb
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.csprojAssemblyReference.cache
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.AssemblyInfoInputs.cache
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.AssemblyInfo.cs
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.csproj.CoreCompileInputs.cache
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.dll
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.pdb
+C:\Code\Collections\Collection\Collection\obj\Debug\netcoreapp3.1\Collection.genruntimeconfig.cache
